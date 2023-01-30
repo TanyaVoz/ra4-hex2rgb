@@ -1,11 +1,9 @@
 import './App.css';
-import Hex2RGB from "./components/Hex2RGB";
+import HEXConvertor from './components/HEXConvertor';
 
 function App() {
   return (
-    <>
-      <Hex2RGB />
-    </>
+    <HEXConvertor />
   );
 }
 
